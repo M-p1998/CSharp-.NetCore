@@ -1,0 +1,15 @@
+/Users/mya_p/Desktop/CSharp_DotNetCore/CollectionsPractice/bin/Debug/net8.0/CollectionsPractice
+/Users/mya_p/Desktop/CSharp_DotNetCore/CollectionsPractice/bin/Debug/net8.0/CollectionsPractice.deps.json
+/Users/mya_p/Desktop/CSharp_DotNetCore/CollectionsPractice/bin/Debug/net8.0/CollectionsPractice.runtimeconfig.json
+/Users/mya_p/Desktop/CSharp_DotNetCore/CollectionsPractice/bin/Debug/net8.0/CollectionsPractice.dll
+/Users/mya_p/Desktop/CSharp_DotNetCore/CollectionsPractice/bin/Debug/net8.0/CollectionsPractice.pdb
+/Users/mya_p/Desktop/CSharp_DotNetCore/CollectionsPractice/obj/Debug/net8.0/CollectionsPractice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mya_p/Desktop/CSharp_DotNetCore/CollectionsPractice/obj/Debug/net8.0/CollectionsPractice.AssemblyInfoInputs.cache
+/Users/mya_p/Desktop/CSharp_DotNetCore/CollectionsPractice/obj/Debug/net8.0/CollectionsPractice.AssemblyInfo.cs
+/Users/mya_p/Desktop/CSharp_DotNetCore/CollectionsPractice/obj/Debug/net8.0/CollectionsPractice.csproj.CoreCompileInputs.cache
+/Users/mya_p/Desktop/CSharp_DotNetCore/CollectionsPractice/obj/Debug/net8.0/CollectionsPractice.sourcelink.json
+/Users/mya_p/Desktop/CSharp_DotNetCore/CollectionsPractice/obj/Debug/net8.0/CollectionsPractice.dll
+/Users/mya_p/Desktop/CSharp_DotNetCore/CollectionsPractice/obj/Debug/net8.0/refint/CollectionsPractice.dll
+/Users/mya_p/Desktop/CSharp_DotNetCore/CollectionsPractice/obj/Debug/net8.0/CollectionsPractice.pdb
+/Users/mya_p/Desktop/CSharp_DotNetCore/CollectionsPractice/obj/Debug/net8.0/CollectionsPractice.genruntimeconfig.cache
+/Users/mya_p/Desktop/CSharp_DotNetCore/CollectionsPractice/obj/Debug/net8.0/ref/CollectionsPractice.dll

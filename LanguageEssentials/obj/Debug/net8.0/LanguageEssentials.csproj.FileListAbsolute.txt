@@ -1,0 +1,15 @@
+/Users/mya_p/Desktop/C#/LanguageEssentials/bin/Debug/net8.0/LanguageEssentials
+/Users/mya_p/Desktop/C#/LanguageEssentials/bin/Debug/net8.0/LanguageEssentials.deps.json
+/Users/mya_p/Desktop/C#/LanguageEssentials/bin/Debug/net8.0/LanguageEssentials.runtimeconfig.json
+/Users/mya_p/Desktop/C#/LanguageEssentials/bin/Debug/net8.0/LanguageEssentials.dll
+/Users/mya_p/Desktop/C#/LanguageEssentials/bin/Debug/net8.0/LanguageEssentials.pdb
+/Users/mya_p/Desktop/C#/LanguageEssentials/obj/Debug/net8.0/LanguageEssentials.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mya_p/Desktop/C#/LanguageEssentials/obj/Debug/net8.0/LanguageEssentials.AssemblyInfoInputs.cache
+/Users/mya_p/Desktop/C#/LanguageEssentials/obj/Debug/net8.0/LanguageEssentials.AssemblyInfo.cs
+/Users/mya_p/Desktop/C#/LanguageEssentials/obj/Debug/net8.0/LanguageEssentials.csproj.CoreCompileInputs.cache
+/Users/mya_p/Desktop/C#/LanguageEssentials/obj/Debug/net8.0/LanguageEssentials.sourcelink.json
+/Users/mya_p/Desktop/C#/LanguageEssentials/obj/Debug/net8.0/LanguageEssentials.dll
+/Users/mya_p/Desktop/C#/LanguageEssentials/obj/Debug/net8.0/refint/LanguageEssentials.dll
+/Users/mya_p/Desktop/C#/LanguageEssentials/obj/Debug/net8.0/LanguageEssentials.pdb
+/Users/mya_p/Desktop/C#/LanguageEssentials/obj/Debug/net8.0/LanguageEssentials.genruntimeconfig.cache
+/Users/mya_p/Desktop/C#/LanguageEssentials/obj/Debug/net8.0/ref/LanguageEssentials.dll

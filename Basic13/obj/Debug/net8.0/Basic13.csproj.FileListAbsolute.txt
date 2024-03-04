@@ -1,0 +1,15 @@
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic13/obj/Debug/net8.0/Basic13.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic13/obj/Debug/net8.0/Basic13.AssemblyInfoInputs.cache
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic13/obj/Debug/net8.0/Basic13.AssemblyInfo.cs
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic13/obj/Debug/net8.0/Basic13.csproj.CoreCompileInputs.cache
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic13/obj/Debug/net8.0/Basic13.sourcelink.json
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic13/bin/Debug/net8.0/Basic13
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic13/bin/Debug/net8.0/Basic13.deps.json
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic13/bin/Debug/net8.0/Basic13.runtimeconfig.json
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic13/bin/Debug/net8.0/Basic13.dll
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic13/bin/Debug/net8.0/Basic13.pdb
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic13/obj/Debug/net8.0/Basic13.dll
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic13/obj/Debug/net8.0/refint/Basic13.dll
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic13/obj/Debug/net8.0/Basic13.pdb
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic13/obj/Debug/net8.0/Basic13.genruntimeconfig.cache
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic13/obj/Debug/net8.0/ref/Basic13.dll

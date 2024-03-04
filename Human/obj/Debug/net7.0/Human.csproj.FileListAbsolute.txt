@@ -1,0 +1,5 @@
+/Users/mya_p/Desktop/CSharp_DotNetCore/Human/obj/Debug/net7.0/Human.csproj.AssemblyReference.cache
+/Users/mya_p/Desktop/CSharp_DotNetCore/Human/obj/Debug/net7.0/Human.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mya_p/Desktop/CSharp_DotNetCore/Human/obj/Debug/net7.0/Human.AssemblyInfoInputs.cache
+/Users/mya_p/Desktop/CSharp_DotNetCore/Human/obj/Debug/net7.0/Human.AssemblyInfo.cs
+/Users/mya_p/Desktop/CSharp_DotNetCore/Human/obj/Debug/net7.0/Human.csproj.CoreCompileInputs.cache

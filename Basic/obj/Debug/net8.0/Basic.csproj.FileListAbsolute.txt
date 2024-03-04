@@ -1,0 +1,15 @@
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic/bin/Debug/net8.0/Basic
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic/bin/Debug/net8.0/Basic.deps.json
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic/bin/Debug/net8.0/Basic.runtimeconfig.json
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic/bin/Debug/net8.0/Basic.dll
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic/bin/Debug/net8.0/Basic.pdb
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic/obj/Debug/net8.0/Basic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic/obj/Debug/net8.0/Basic.AssemblyInfoInputs.cache
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic/obj/Debug/net8.0/Basic.AssemblyInfo.cs
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic/obj/Debug/net8.0/Basic.csproj.CoreCompileInputs.cache
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic/obj/Debug/net8.0/Basic.sourcelink.json
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic/obj/Debug/net8.0/Basic.dll
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic/obj/Debug/net8.0/refint/Basic.dll
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic/obj/Debug/net8.0/Basic.pdb
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic/obj/Debug/net8.0/Basic.genruntimeconfig.cache
+/Users/mya_p/Desktop/CSharp_DotNetCore/Basic/obj/Debug/net8.0/ref/Basic.dll

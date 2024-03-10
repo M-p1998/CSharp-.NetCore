@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Web Page</title>
+</head>
+<body>
+    <p class="text-center">Here are some Users!</p>
+    @{
+        var NameList = new List<string>{
+            "Moose Phillips",
+            "Sarah",
+            "Jerry",
+            "Rene Ricky",
+            "Barbarah"
+            };
+
+            foreach (var word in NameList){
+                <p>@word</p>
+
+            }
+    }
+</body>
+</html>

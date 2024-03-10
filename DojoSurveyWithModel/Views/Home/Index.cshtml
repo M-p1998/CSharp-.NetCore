@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+    string[]locations = new string[]
+    {
+        "Seattle", "San Jose", "Dallas", "Chicago", "East Bay", "Online", "Burbank"
+    };
+
+    string[] languages = new string[]
+    {
+        "C#", "Python", "Java", "Javascript", "Ruby", "C++"
+    };
+}
+
+<div class="text-center">
+    <h1 class="display-4">Dojo Survey Index</h1>
+    
+    <form action="/process" method="post">
+        <div>
+            <label>Your Name:</label>
+            <input type="text" name="Name"/>
+        </div>
+        <div>
+            <label>Dojo Location:</label>
+            <select name="Location" id="">
+                @foreach(var loc in locations)
+                {
+                    <option value="@loc">@loc</option>
+                    
+                }
+            </select>
+        </div>
+        <div>
+            <label>Favorite Language:</label>
+            <select name="Language" id="">
+                @foreach(var lang in languages)
+                {
+                    <option value="@lang">@lang</option>
+                }    
+            </select>
+        </div>
+        <div>
+            <label for="Commenttt">Comment(optional):</label>
+            <textarea name="Comment" id=""></textarea>
+        </div>
+        <input type="submit" value="Submit!">
+
+    </form>
+
+
+</div>

@@ -1,0 +1,55 @@
+@model User
+
+@{
+    string [] locations = new string[]
+    {
+        "San Jose", "Oakland" ,"Seattle", "Vermont"
+    };
+    string [] language = new string[]
+    {
+        "Python", "C#", "Java", "Javascript", "MERN"
+    };
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Survey</title>
+</head>
+<body>
+    
+    <form asp-action="Create" asp-asp-controller="Home" method="post">
+        <div>
+            <span asp-validation-for="YourName"></span>
+            <label asp-for="YourName"></label>
+            <input asp-for="YourName" name="YourName">
+        </div>
+        <div>
+            <span asp-validation-for="Location"></span>
+            <label asp-for="Location"></label>
+            <select name="Location">
+                @foreach(var loc in locations){
+                    <option value="@loc">@loc</option>
+                }
+            </select>
+        </div>
+        <div>
+            <span asp-validation-for="Language"></span>
+            <label asp-for="Language"></label>
+            <select name="Language">
+                @foreach(var lan in language){
+                    <option value="@lan">@lan</option>
+                }
+            </select>
+        </div>
+        <div>
+            <span asp-validation-for="Comment"></span>
+            <label asp-for="Comment"></label>
+            <textarea asp-for="Comment"></textarea>
+        </div>
+        <input type="submit" value="Submit!"/>
+
+    </form>
+</body>
+</html>

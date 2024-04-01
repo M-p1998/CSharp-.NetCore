@@ -169,22 +169,74 @@ namespace RealEstate.Controllers
 
         //[HttpDelete]
         //[Route("{userId}")]
-        public IActionResult Delete(int userId)
+        //public IActionResult Delete(int userId)
+        //{
+        //    // Retrieve the user from the database
+        //    var userToDelete = _db.Estates.SingleOrDefault(user => user.Estate_Id == userId);
+
+        //    if (userToDelete == null)
+        //    {
+        //        return NotFound(); // Or handle the case where the user doesn't exist
+        //    }
+
+        //    // Delete the user
+        //    _db.Estates.Remove(userToDelete);
+        //    _db.SaveChanges();
+
+        //    return RedirectToAction("Index"); // Redirect to the index page or any other appropriate action
+        //}
+
+        //[HttpPost, ActionName("Delete")]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> DeleteConfirmed(int id)
+        //{
+        //    // Retrieve the user from the database
+            
+
+        //    if (_db.Estates == null)
+        //    {
+        //        return Problem("Entity set 'AppDbContext.Estates' is null"); 
+        //    }
+        //    var estate = await _db.Estates.FindAsync(id);
+        //    if(estate != null)
+        //    {
+        //        _db.Estates.Remove(estate);
+        //    }
+
+        //    await _db.SaveChangesAsync();
+
+        //    return RedirectToAction(nameof(Index)); 
+        //}
+
+        public IActionResult Delete(int? id)
         {
-            // Retrieve the user from the database
-            var userToDelete = _db.Estates.SingleOrDefault(user => user.Estate_Id == userId);
-
-            if (userToDelete == null)
+            if(id == null || id == 0)
             {
-                return NotFound(); // Or handle the case where the user doesn't exist
+                return NotFound();
             }
+            Estate? estateFromDb = _db.Estates.Find(id);
+            if(estateFromDb == null)
+            {
+                return NotFound();
+            }
+            return View(estateFromDb);
 
-            // Delete the user
-            _db.Estates.Remove(userToDelete);
-            _db.SaveChanges();
-
-            return RedirectToAction("Index"); // Redirect to the index page or any other appropriate action
         }
+
+        [HttpPost, ActionName("Delete")]
+        public IActionResult DeletePost(int? id)
+        {
+            Estate? obj = _db.Estates.Find(id);
+            if(obj == null)
+            {
+                return NotFound();
+            }
+            _db.Estates.Remove(obj);
+            _db.SaveChanges();
+            TempData["success"] = "Estate deleted successfully";
+            return RedirectToAction("Index");
+        }
+
 
 
     }

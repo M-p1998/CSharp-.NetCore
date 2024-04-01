@@ -1,0 +1,98 @@
+﻿@model List<Estate>
+
+
+<partial name="_Notification"/>
+
+    <div class="container">
+        <div class="row pt-4 pb-3">
+            <div class="col-6">
+                <h2 class="text-primary">
+                    Estate List
+                </h2>
+            </div>
+            <div class="col-6 text-end">
+                <a asp-controller="Estate" asp-action="Create" class="btn btn-primary">
+                    <i class="bi bi-plus-circle-fill"></i>Create new homes
+                </a>
+            </div>
+        </div>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        Home Name
+                    </th>
+                    <th>
+                        Home Address
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var obj in Model.OrderBy(u => u.Name))
+                {
+                    <tr>
+                        <td>@obj.Name</td>
+                        <td>@obj.Address</td>
+                        <td>@obj.Description</td>
+                        <td>
+                            <div class="w-75 btn-group" role="group">
+                                <a asp-controller="Estate" asp-action="Edit" asp-route-id="@obj.Estate_Id" class="btn btn-primary mx-2">
+                                    <i class="bi bi-pencil-square"></i> Edit
+                                </a>
+
+
+                                <a asp-controller="Estate" asp-action="Delete" asp-route-id="@obj.Estate_Id" class="btn btn-primary mx-2">
+                                    <i class="bi bi-trash3"></i> Delete
+                                </a>
+
+                                @*<a asp-controller="Estate" asp-action="Delete" asp-route-id="@obj.Estate_Id" class="btn btn-danger mx-2">
+        <i class="bi bi-trash3"></i> <button>Delete</button>*@
+                                @*</a>*@
+                                <!--<form >-->
+                                @*<input type="hidden"  />*@
+                                <!--<button  asp-route-id="@obj.Estate_Id" asp-controller="Estate" asp-action="Delete"  type="submit" class="btn btn-danger mx-2">
+            <i class="bi bi-trash3"></i> Delete
+        </button>
+    </form>
+    </div>-->
+                                @*<form  asp-route-id="@obj.Estate_Id" asp-controller="Estate" >
+            <button  class="btn btn-danger mx-2">
+                <i class="bi bi-trash3"></i> Delete
+            </button>
+        </form>*@
+
+
+                                @*<form asp-controller="Estate" asp-route-id="@obj.Estate_Id" method="post">
+            <input type="hidden"  value="@obj.Estate_Id"/>
+            <button type="submit">Delete User</button>
+        </form>*@
+                                @*<input type="hidden" name="Estate_Id" value="@obj.Estate_Id" />*@
+
+                                @*<form asp-controller="Estate" >
+            <input type="hidden" name="Estate_Id" value="@obj.Estate_Id" />
+            <button type="submit">Delete User</button>
+        </form>*@
+
+                            </div>
+
+                                @*<form asp-controller="Estate" asp-action="Delete" method="post">
+            <input type="hidden" name="EId" value="@obj.Estate_Id" />
+            <div class="w-75 btn-group" role="group">
+                <a asp-controller="Estate" asp-action="Edit" asp-route-id="@obj.Estate_Id" class="btn btn-primary mx-2">
+                    <i class="bi bi-pencil-square"></i> Edit
+                </a>
+                <button type="submit" class="btn btn-danger mx-2">
+                    <i class="bi bi-trash3"></i> Delete
+                </button>
+            </div>
+        </form>*@
+</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>

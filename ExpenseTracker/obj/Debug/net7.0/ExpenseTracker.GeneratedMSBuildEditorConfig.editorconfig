@@ -16,8 +16,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/mya_p/Desktop/CSharp_DotNetCore/ExpenseTracker
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/mya_p/Desktop/CSharp_DotNetCore/ExpenseTracker/Views/Category/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvQ3JlYXRlLmNzaHRtbA==
+[/Users/mya_p/Desktop/CSharp_DotNetCore/ExpenseTracker/Views/Category/AddOrEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvQWRkT3JFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mya_p/Desktop/CSharp_DotNetCore/ExpenseTracker/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/mya_p/Desktop/CSharp_DotNetCore/ExpenseTracker/Views/Category/Index.cshtml]

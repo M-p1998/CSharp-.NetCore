@@ -1,32 +1,35 @@
 ﻿
 @model IEnumerable<ExpenseTracker.Models.Category>
+@{
+    ViewData["Title"] = "Index";
+}
 
-@*<h1>hello</h1>
     @{
         ViewData["PageTitle"] = "Categories";
-        //ViewData["PageActionText"] = "+ New Category";
-        //ViewData["PageActionUrl"] = "/Category/AddOrEdit";
+        ViewData["PageActionText"] = "+ New Category";
+        ViewData["PageActionUrl"] = "/Category/AddOrEdit";
     }
 
 
-    <div class="row">
-        <div class="col-md-7">
-            <ejs-grid id="categories" dataSource="@Model" gridLines="None"
-                      allowSorting="true" allowPaging="true">
-                <e-grid-pagesettings pageSize="5"></e-grid-pagesettings>
-                <e-grid-columns>
-                    <e-grid-column headerText="Category" field="TitleWithIcon"></e-grid-column>
-                    <e-grid-column headerText="Type" template="#typeColumnTemplate" width="150px"></e-grid-column>
-                    <e-grid-column headerText="Actions" template="#actionColumnTemplate" width="100px"></e-grid-column>
-                </e-grid-columns>
-            </ejs-grid>
-        </div>
-        <div class="col-md-5">
-            <div class="widget h-100 d-flex justify-content-center align-items-center">
-                <i class="fa-solid fa-shapes fa-2xl"></i>
-            </div>
-        </div>
+<div class="row">
+    <div class="col-md-7">
+        <ejs-grid id="categories" dataSource="@Model" gridLines="None"
+                allowSorting="true" allowPaging="true"  >
+            <e-grid-pagesettings pageSize="5"></e-grid-pagesettings>
+            <e-grid-columns>
+                <e-grid-column headerText="Category" field="TitleWithIcon"></e-grid-column>
+                <e-grid-column headerText="Type" template="#typeColumnTemplate" width="150px"></e-grid-column>
+                <e-grid-column headerText="Actions" template="#actionColumnTemplate" width="100px"></e-grid-column>
+            </e-grid-columns>
+        </ejs-grid>
     </div>
+    <div class="col-md-5">
+        <div class="widget h-100 d-flex justify-content-center align-items-center" style="background-color: #212b36">
+            <i class="fa-solid fa-shapes fa-2xl"></i>
+        </div>
+
+    </div>
+</div>
 
     <script id="typeColumnTemplate" type="text/x-template">
         ${if(Type=="Income")}
@@ -44,43 +47,12 @@
             <form action="/Category/Delete/${CategoryId}" method="post">
                 @Html.AntiForgeryToken()
                 <button type="submit" class="btn btn-sm btn-link no-a-decoration"
-                        onclick="return confirm(&quot;Are sure to delete this record?&quot;)">
+                        onclick="return confirm(&quot;Are you sure to delete this record?&quot;)">
                     <i class="fa-solid fa-trash-can fa-lg text-danger"></i>
                 </button>
             </form>
         </div>
-    </script>*@
+    </script>
 
-<a href="Create New"></a>
-<form>
-    
-    <table class="table table-responsive table-border table-hover">
-        <thead>
-            <tr class="table-active">
-                <th>
-                    <label>Title</label>
-                </th>
-                <th>
-                    <label>Icon</label>
-                </th>
-                <th>
-                    <label>type</label>
-                </th>
-                @*<th>
-                    @Html.DisplayNameFor(model => model.Category)
-                </th>*@
-                @*<th>
-                        @Html.DisplayNameFor(model => model.type)
-                    </th>*@
 
-                <th>Action</th>
-
-            </tr>
-        </thead>
-        <tbody>
-            
-
-        </tbody>
-    </table>
-</form>
-
+   

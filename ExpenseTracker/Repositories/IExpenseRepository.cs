@@ -8,10 +8,10 @@ namespace ExpenseTracker.Repositories
     {
 
         Task<IEnumerable<Category>> GetAll();
-        //Task<Transaction> GetById(int id);
+        Task<Category> GetById(int id);
         Task Add(Category model);
-        //Task Update(Transaction model);
-        //Task Delete(int id);
+        Task Update(Category model);
+        Task Delete(int id);
     }
 }
 

@@ -19,9 +19,13 @@
   <ItemGroup>
     <None Remove="Repositories\" />
     <None Remove="Views\Category\" />
+    <None Remove="Views\Transaction\" />
+    <None Remove="Views\Dashboard\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repositories\" />
     <Folder Include="Views\Category\" />
+    <Folder Include="Views\Transaction\" />
+    <Folder Include="Views\Dashboard\" />
   </ItemGroup>
 </Project>

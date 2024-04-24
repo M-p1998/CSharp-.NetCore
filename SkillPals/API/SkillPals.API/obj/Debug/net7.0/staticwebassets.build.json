@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bkd9SMIKbPq5snWS9cNH2eQpCCmmflrC1ZveZZOdcVs=",
+  "Source": "SkillPals.API",
+  "BasePath": "_content/SkillPals.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

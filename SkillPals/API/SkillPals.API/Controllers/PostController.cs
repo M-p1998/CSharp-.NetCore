@@ -54,6 +54,28 @@ namespace SkillPals.API.Controllers
             return Ok(response);
 
         }
+        //GET: /api/posts
+        [HttpGet]
+        public async Task<IActionResult> GetAllPosts()
+        {
+            var posts = await pRepo.GetAllAsync();
+
+            //map domain model to DTO
+
+            var response = new List<PostDto>();
+            foreach(var p in posts)
+            {
+                response.Add(new PostDto
+                {
+                    Id = p.Id,
+                    Title = p.Title,
+                    Picture = p.Picture,
+                    Description = p.Description,
+                    Creator = p.Creator
+                });   
+            }
+            return Ok(response);
+        }
 
         // PUT api/values/5
         [HttpPut("{id}")]

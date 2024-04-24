@@ -21,6 +21,11 @@ namespace SkillPals.API.Repositories.Implementation
 
             return post;
         }
+
+        public async Task<IEnumerable<Post>> GetAllAsync()
+        {
+            return await _dbContext.Posts.ToListAsync();
+        }
     }
 }
 

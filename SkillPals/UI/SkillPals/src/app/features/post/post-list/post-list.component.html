@@ -1,0 +1,34 @@
+
+
+<div class="container">
+    <h1>Ask question list</h1>
+    <div class="d-flex justify-content-end mt-3 ">
+        <a routerLink="/post/add" class ="btn btn-primary">Ask question?</a>
+    </div>
+
+    <!-- ngIf = if posts are not undefined show posts -->
+    <ng-container *ngIf="posts$ | async as posts">
+        <table class="table table-bordered mt-3">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Picture</th>
+                    <th>Description</th>
+                    <th>Creator</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let post of posts">
+                    <td>{{post.id}}</td>
+                    <td>{{post.title}}</td>
+                    <td>{{post.picture}}</td>
+                    <td>{{post.description}}</td>
+                    <td>{{post.creator}}</td>
+                    <td>{{post.publishedDate}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </ng-container>
+</div>

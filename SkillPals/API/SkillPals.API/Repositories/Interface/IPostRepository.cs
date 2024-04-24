@@ -7,6 +7,8 @@ namespace SkillPals.API.Repositories.Interface
 	{
 		Task<Post> CreateAsync(Post post);
 
+		Task<IEnumerable<Post>> GetAllAsync();
+
 	}
 }
 
